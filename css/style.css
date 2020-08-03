@@ -1,0 +1,33 @@
+body{
+    background-color: #eee;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header img{
+    width: 300px;
+}
+
+header nav{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header+h2{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 245px;
+}
+
+form input[type$="email"]{
+    margin-bottom: 15px;
+}
